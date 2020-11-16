@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/phone_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Phone" />
+
+    <TextView
+        android:id="@+id/msg_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Message" />
+
+    <Button
+        android:id="@+id/read_shared"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Shared" />
+
+    <Button
+        android:id="@+id/write_shared"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Shared" />
+
+    <Button
+        android:id="@+id/read_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Internal" />
+
+    <Button
+        android:id="@+id/write_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Internal" />
+
+    <Button
+        android:id="@+id/read_sqlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read SQLite" />
+
+    <Button
+        android:id="@+id/write_sqlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write SQLite" />
+
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+
+</LinearLayout>
